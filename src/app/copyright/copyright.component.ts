@@ -1,3 +1,4 @@
+import { PruebaService } from '../services/prueba.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,9 @@ export class CopyrightComponent implements OnInit {
   copyright: String = '© ACME. S.A';
   hoy: any = new Date();
 
-  constructor() { }
+  constructor(private prueba: PruebaService) {
+    this.hoy = this.prueba.getHoy();
+   }
 
   ngOnInit() {
   }

@@ -1,3 +1,4 @@
+import { PruebaService } from '../services/prueba.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class FechaactualComponent {
   hoy: any = new Date();
+
+  constructor(private prueba: PruebaService) {
+    this.hoy = this.prueba.getHoy();
+  }
 }
