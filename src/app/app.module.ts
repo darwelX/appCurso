@@ -8,6 +8,7 @@ import { CopyrightComponent } from './copyright/copyright.component';
 import { PruebaService } from './services/prueba.service';
 import { ViewmodelComponent } from './viewmodel/viewmodel.component';
 import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybinding.component';
+import { EjeventbindingComponent } from './ejeventbinding/ejeventbinding.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybindin
     FechaactualComponent,
     CopyrightComponent,
     ViewmodelComponent,
-    EjpropertybindingComponent
+    EjpropertybindingComponent,
+    EjeventbindingComponent
   ],
   imports: [
     BrowserModule
