@@ -7,6 +7,7 @@ import { FechaactualComponent } from './fechaactual/fechaactual.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { PruebaService } from './services/prueba.service';
 import { ViewmodelComponent } from './viewmodel/viewmodel.component';
+import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybinding.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ViewmodelComponent } from './viewmodel/viewmodel.component';
     AppComponent,
     FechaactualComponent,
     CopyrightComponent,
-    ViewmodelComponent
+    ViewmodelComponent,
+    EjpropertybindingComponent
   ],
   imports: [
     BrowserModule
