@@ -9,6 +9,8 @@ import { PruebaService } from './services/prueba.service';
 import { ViewmodelComponent } from './viewmodel/viewmodel.component';
 import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybinding.component';
 import { EjeventbindingComponent } from './ejeventbinding/ejeventbinding.component';
+import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,10 +20,12 @@ import { EjeventbindingComponent } from './ejeventbinding/ejeventbinding.compone
     CopyrightComponent,
     ViewmodelComponent,
     EjpropertybindingComponent,
-    EjeventbindingComponent
+    EjeventbindingComponent,
+    Ej2waybindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [
     PruebaService
