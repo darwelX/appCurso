@@ -11,6 +11,7 @@ import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybindin
 import { EjeventbindingComponent } from './ejeventbinding/ejeventbinding.component';
 import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component';
 import { FormsModule } from '@angular/forms';
+import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     ViewmodelComponent,
     EjpropertybindingComponent,
     EjeventbindingComponent,
-    Ej2waybindingComponent
+    Ej2waybindingComponent,
+    EjdirectivangifComponent
   ],
   imports: [
     BrowserModule,
