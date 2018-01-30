@@ -1,0 +1,26 @@
+<div class="container">
+  <h3>Ejemplo de Directiva ngIf</h3>
+  <hr>
+  <div class="form-group">
+    <label for="nombre" class="form-control-label">Nombre y Apellido:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Complete su nombre y apellidos" class="form-control"
+    [(ngModel)]="nombre"/>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" *ngIf="nombre; else desactivado">Enviar</button>
+    <ng-template #desactivado>
+    <button type="submit" class="btn btn-primary" disabled>Enviar</button>
+    </ng-template>
+  </div>
+  <h3>¿Cual es la capital de España?</h3>
+  <div class="form-group">
+    <input type="text" name="capital" id="capital" [(ngModel)]="capital" class="form-control"/>
+  </div>
+  <p *ngIf="!capital; else correcto">Complete la pregunta</p>
+  <ng-template #correcto>
+    <h4 *ngIf="setResultado(); else incorrecto">¡Correcto!</h4>
+  </ng-template>
+  <ng-template #incorrecto>
+      <h4>Lo siento, intente de nuevo</h4>
+  </ng-template>
+</div>
