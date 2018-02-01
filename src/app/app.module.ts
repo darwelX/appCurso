@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
 import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
+import { EjedirectivangforComponent } from './ejedirectivangfor/ejedirectivangfor.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangc
     Ej2waybindingComponent,
     EjdirectivangifComponent,
     EjdirectivangstyleComponent,
-    EjdirectivangclassComponent
+    EjdirectivangclassComponent,
+    EjedirectivangforComponent
   ],
   imports: [
     BrowserModule,
