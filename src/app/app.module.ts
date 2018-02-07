@@ -15,6 +15,7 @@ import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.comp
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
 import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
 import { EjedirectivangforComponent } from './ejedirectivangfor/ejedirectivangfor.component';
+import { EjedirectivangswitchComponent } from './ejedirectivangswitch/ejedirectivangswitch.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { EjedirectivangforComponent } from './ejedirectivangfor/ejedirectivangfo
     EjdirectivangifComponent,
     EjdirectivangstyleComponent,
     EjdirectivangclassComponent,
-    EjedirectivangforComponent
+    EjedirectivangforComponent,
+    EjedirectivangswitchComponent
   ],
   imports: [
     BrowserModule,
